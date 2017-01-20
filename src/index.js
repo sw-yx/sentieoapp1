@@ -7,6 +7,7 @@ import Routes from './routes';
 
 import './index.css';
 
+console.log('hi from /src/index.js')
 ReactDOM.render(
   <Routes history={browserHistory} />,
   document.getElementById('root')
