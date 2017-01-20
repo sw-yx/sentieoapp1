@@ -23,5 +23,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://sw-yx.github.io/sentieoapp1"
+  "homepage": "https://sw-yx.github.io/sentieoapp1/"
 }
