@@ -21,7 +21,7 @@ app.get('/about', (req, res) => {
   console.log(res)
   res.sendFile(path.resolve(__dirname, '..', 'build', 'index.html'));
 });
-app.get('*', (req, res) => {
+app.get('/*', (req, res) => {
 
   console.log('hi from app.get')
   console.log(req)
