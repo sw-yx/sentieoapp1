@@ -15,8 +15,7 @@ export default class NotFound extends Component {
       <div className={classnames('NotFound', className)} {...props}>
         <h1>
           404 <small>Not Found :(</small>
-          {this.props.location.pathname}
-          {this.props.location.query}
+          {JSON.stringify(props)}
         </h1>
       </div>
     );
